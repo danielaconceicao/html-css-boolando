@@ -143,9 +143,12 @@
 .container-footer{
     background-color: var(--bg-footer);
     color: var(--header-text-color);
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 2rem;
     margin-top: 2rem;
+    .information-boolando>span{
+        font-size: .8rem;
+    }
     h2{
         font-size: 1.3rem;
         padding-bottom: 1rem;
