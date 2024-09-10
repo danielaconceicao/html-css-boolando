@@ -51,6 +51,7 @@
     }
 }
 
+/* region main */
 .container-main{
     gap: 1.3rem;
     flex-wrap: wrap;
@@ -68,43 +69,75 @@
         color: var(--price-color);
         font-weight: 600;
     }
+    .content-main{
+        position: relative;
+    }
+    .discount, .sostenibilità, .sostenibilita-hero{
+        color: var(--header-text-color);
+        padding: .2rem .5rem;
+        font-weight: 600;
+        position: absolute;
+        top: 520px;
+    }
+    .discount{
+        background-color: var(--discount-color); 
+        left: 0;
+    }
+    .sostenibilità{
+        background-color: var(--tenability-color);
+        right: 240px;
+    }
+    .sostenibilita-hero{
+        left: 0;
+        background-color: var(--tenability-color);
+    }
+    .hearts{
+        background-color: var(--header-text-color);
+        padding: .3rem;
+        font-size: 1.3rem;
+        position: absolute;
+        top: 5px;
+        right: 0;
+    }
+    
 }
 
-.discount{
-    background-color: var(--discount-color); 
-    left: 0;
+/* region hover */
+.hover{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    width: 400px;
+    height: 577.8px;
+}
+.relaxed-levis{
+    background-image: url("../img/1.webp");
 }
 
-.sostenibilita-hero{
-    left: 0;
-    background-color: var(--tenability-color);
+.guess-roses{
+    background-image: url("../img/2.webp");
 }
 
-.discount, .sostenibilità, .sostenibilita-hero{
-    color: var(--header-text-color);
-    padding: .2rem .5rem;
-    font-weight: 600;
-    position: absolute;
-    top: 520px;
+.voglia-colori{
+    background-image: url("../img/3.webp");
 }
 
-.sostenibilità{
-    background-color: var(--tenability-color);
-    right: 240px;
+.tee-inisex{
+    background-image: url("../img/4.webp");
 }
 
-.hearts{
-    background-color: var(--header-text-color);
-    padding: .3rem;
-    font-size: 1.3rem;
-    position: absolute;
-    top: 5px;
-    right: 0;
+.maya-deluxe{
+    background-image: url("../img/5.webp");
 }
 
-.content-main{
-    position: relative;
+.esprit{
+    background-image: url("../img/6.webp");
 }
+
+.image-hover:hover{
+    opacity: 0;
+}
+
 
 /* region footer */
 .container-footer{
@@ -127,3 +160,11 @@
         padding: .1rem;
     }
 }
+
+
+
+
+
+
+
+
