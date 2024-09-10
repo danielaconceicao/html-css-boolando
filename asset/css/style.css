@@ -103,17 +103,22 @@
 }
 
 /* region hover */
-.hover{
+.image-hover{
     position: relative;
-    .image-hover{
+    .hover{
         position: absolute;
-        top: 00px;
+        top: 0px;
         opacity: 0;
     }
-    .image-hover:hover{
+    .hover:hover{
         opacity: 100;
     }
 }
+
+.content-main:hover .hearts{
+    color: var(--discount-color);
+}
+
 
 /* region footer */
 .container-footer{
@@ -139,14 +144,5 @@
         padding: .1rem;
     }
 }
-
-.content-main> .hearts:hover{
-    color: #ff2644;
-}
-
-
-
-
-
 
 
