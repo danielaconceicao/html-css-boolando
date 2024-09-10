@@ -104,40 +104,16 @@
 
 /* region hover */
 .hover{
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top center;
-    width: 400px;
-    height: 577.8px;
+    position: relative;
+    .image-hover{
+        position: absolute;
+        top: 00px;
+        opacity: 0;
+    }
+    .image-hover:hover{
+        opacity: 100;
+    }
 }
-.relaxed-levis{
-    background-image: url("../img/1.webp");
-}
-
-.guess-roses{
-    background-image: url("../img/2.webp");
-}
-
-.voglia-colori{
-    background-image: url("../img/3.webp");
-}
-
-.tee-inisex{
-    background-image: url("../img/4.webp");
-}
-
-.maya-deluxe{
-    background-image: url("../img/5.webp");
-}
-
-.esprit{
-    background-image: url("../img/6.webp");
-}
-
-.image-hover:hover{
-    opacity: 0;
-}
-
 
 /* region footer */
 .container-footer{
@@ -164,6 +140,9 @@
     }
 }
 
+.content-main> .hearts:hover{
+    color: #ff2644;
+}
 
 
 
