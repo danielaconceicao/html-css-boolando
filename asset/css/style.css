@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     border: 0;
+    box-sizing: border-box;
 }
 
 :root{
@@ -55,7 +56,7 @@
     flex-wrap: wrap;
     padding-top: 2rem;
     img{
-        width: 250px;
+        width: 400px;
     }
     .text-strong{
         color: var(--bg-footer);
@@ -84,12 +85,12 @@
     padding: .2rem .5rem;
     font-weight: 600;
     position: absolute;
-    top: 315px;
+    top: 520px;
 }
 
 .sostenibilità{
     background-color: var(--tenability-color);
-    right: 92px;
+    right: 240px;
 }
 
 .hearts{
@@ -111,6 +112,7 @@
     color: var(--header-text-color);
     justify-content: space-between;
     padding: 2rem;
+    margin-top: 2rem;
     h2{
         font-size: 1.3rem;
         padding-bottom: 1rem;
