@@ -29,7 +29,8 @@
     padding: 1rem 0;
 }
 
-.container-main{
+/* region header */
+.container-header{
     background-color: var(--bg-header);
     justify-content: space-around;
     img{
@@ -46,5 +47,81 @@
     span{
         color: var(--header-text-color);
         padding-left: .8rem;
+    }
+}
+
+.container-main{
+    gap: 1.3rem;
+    flex-wrap: wrap;
+    padding-top: 2rem;
+    img{
+        width: 250px;
+    }
+    .text-strong{
+        color: var(--bg-footer);
+        font-weight: 700;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: .9rem;
+    }
+    .text-red-700{
+        color: var(--price-color);
+        font-weight: 600;
+    }
+}
+
+.discount{
+    background-color: var(--discount-color); 
+    left: 0;
+}
+
+.sostenibilita-hero{
+    left: 0;
+    background-color: var(--tenability-color);
+}
+
+.discount, .sostenibilità, .sostenibilita-hero{
+    color: var(--header-text-color);
+    padding: .2rem .5rem;
+    font-weight: 600;
+    position: absolute;
+    top: 315px;
+}
+
+.sostenibilità{
+    background-color: var(--tenability-color);
+    right: 92px;
+}
+
+.hearts{
+    background-color: var(--header-text-color);
+    padding: .3rem;
+    font-size: 1.3rem;
+    position: absolute;
+    top: 5px;
+    right: 0;
+}
+
+.content-main{
+    position: relative;
+}
+
+/* region footer */
+.container-footer{
+    background-color: var(--bg-footer);
+    color: var(--header-text-color);
+    justify-content: space-between;
+    padding: 2rem;
+    h2{
+        font-size: 1.3rem;
+        padding-bottom: 1rem;
+    }
+    span{
+        padding-right: .8rem;
+    }
+    i{
+        border: 1px solid transparent;
+        background-color: #fff;
+        color: var(--bg-footer);
+        padding: .1rem;
     }
 }
